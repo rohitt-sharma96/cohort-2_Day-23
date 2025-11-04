@@ -169,10 +169,32 @@ main {
         gap: 2rem;
         padding: 1rem;
 
-        .card {
+        .card1 {
             width: 100%;
             border-radius: 0.7rem;
             background-image: url('./card 1.webp');
+            background-size: cover;
+            aspect-ratio: 1/1;
+            @include flex-column(0rem);
+            justify-content: space-between;
+            padding: 1rem;
+        }
+        
+        .card2 {
+            width: 100%;
+            border-radius: 0.7rem;
+            background-image: url('./card 2.webp');
+            background-size: cover;
+            aspect-ratio: 1/1;
+            @include flex-column(0rem);
+            justify-content: space-between;
+            padding: 1rem;
+        }
+        
+        .card3 {
+            width: 100%;
+            border-radius: 0.7rem;
+            background-image: url('./card 3.webp');
             background-size: cover;
             aspect-ratio: 1/1;
             @include flex-column(0rem);
